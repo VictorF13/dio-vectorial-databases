@@ -10,10 +10,6 @@ authors = [
 maintainers = [
     { name = "Victor Abreu", email = "victorabreuf13@gmail.com" },
 ]
-
-[project.urls]
-Homepage = "https://github.com/VictorF13/dio-vectorial-databases"
-
 dependencies = [
     "faiss-cpu>=1.11.0.post1",
     "ipykernel>=6.29.5",
@@ -26,3 +22,7 @@ dependencies = [
     "scikit-learn>=1.7.1",
     "sentence-transformers>=5.0.0",
 ]
+
+
+[project.urls]
+Homepage = "https://github.com/VictorF13/dio-vectorial-databases"

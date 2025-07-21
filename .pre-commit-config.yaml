@@ -11,5 +11,5 @@ repos:
   hooks:
     - id: uv-export
       name: main dependencies
-      args: [--no-dev, --output-file, requirements.txt]
+      args: [--output-file, requirements.txt]
     - id: uv-lock
