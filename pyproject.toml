@@ -1,9 +1,19 @@
 [project]
 name = "dio-vectorial-databases"
-version = "0.1.0"
-description = "Add your description here"
+version = "1.0.0"
+description = "Repositório com exemplos simples de uso de bancos vetoriais para mentoria na Dio"
 readme = "README.md"
 requires-python = ">=3.12"
+authors = [
+    { name = "Victor Abreu", email = "victorabreuf13@gmail.com" },
+]
+maintainers = [
+    { name = "Victor Abreu", email = "victorabreuf13@gmail.com" },
+]
+
+[project.urls]
+Homepage = "https://github.com/VictorF13/dio-vectorial-databases"
+
 dependencies = [
     "faiss-cpu>=1.11.0.post1",
     "ipykernel>=6.29.5",
